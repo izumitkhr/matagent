@@ -1,0 +1,84 @@
+train:
+  random_seed: 0
+  patience: 30
+
+wandb:
+  online: true
+  exp_name: diffusion
+  project: matagent
+
+outputs:
+  dir: .
+
+model:
+  type: crystal_diffusion # might be changed to other models e.g. language model
+  cost_func: default
+  cost_coord: 1.
+  cost_lattice: 1.
+  cost_type: 0.
+  timesteps: 1000
+  time_embedding:
+    # type: learnable
+    type: sinusoid
+    dim: 256
+  # prop_embedding:
+  #   type: linear
+  #   sigma: 0.1
+  #   dim: 256
+  #   dataset: mp20
+  decoder:
+    type: cspnet
+    hidden_dim: 512
+    num_layers: 6
+    act_fn: silu
+    dis_emb: sin
+    num_freqs: 128
+    edge_style: fc
+    ln: true
+    ip: true
+  scheduler:
+    lat:
+      type: continuous
+      mode: cosine
+      beta_start: 0.0001
+      beta_end: 0.02
+    coord:
+      type: wn
+      sigma_begin: 0.005
+      sigma_end: 0.5
+    # type:
+    #   type: continuous
+    #   mode: cosine
+    #   beta_start: 0.0001
+    #   beta_end: 0.02
+
+optim:
+  optimizer:
+    type: adam
+    lr: 0.001
+    betas: [0.9, 0.999]
+    eps: 1e-08
+    weight_decay: 0
+  lr_scheduler:
+    type: plateau
+    factor: 0.9
+    patience: 15
+    min_lr: 1e-4
+  epochs: 3000
+  # epochs: 10
+
+data:
+  root_path: ../../../../data/mp_60
+  data_path: ../preprocess
+  prop: formation_energy_per_atom
+  num_targets: 1
+  niggli: true
+  primitive: false
+  lattice_scale_method: scale_length
+  graph_method: crystalnn
+  preprocess_workers: 6
+  eval_model_name: mp60
+  batch_size:
+    train: 256
+    val: 256
+    test: 256

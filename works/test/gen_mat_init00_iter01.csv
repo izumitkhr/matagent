@@ -1,0 +1,941 @@
+,cif,predicted
+0,"# generated using pymatgen
+data_TiFe2O5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.28132081
+_cell_length_b   4.97470617
+_cell_length_c   5.98947096
+_cell_angle_alpha   112.51252747
+_cell_angle_beta   105.55644226
+_cell_angle_gamma   90.41254425
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TiFe2O5
+_chemical_formula_sum   'Ti1 Fe2 O5'
+_cell_volume   86.34480360
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.98158669  0.01112091  0.52703351  1
+  Fe  Fe1  1  0.64433134  0.71029341  0.84431607  1
+  Ti  Ti2  1  0.30048409  0.38449186  0.16687497  1
+  O  O3  1  0.17130193  0.98441023  0.90215468  1
+  O  O4  1  0.12101122  0.43093464  0.80065489  1
+  O  O5  1  0.86082304  0.21435243  0.27851671  1
+  O  O6  1  0.47417861  0.74355787  0.50949132  1
+  O  O7  1  0.79072738  0.61613339  0.14998056  1
+",-2.3371303
+1,"# generated using pymatgen
+data_TiFe2O5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.31137371
+_cell_length_b   5.38220549
+_cell_length_c   5.39213514
+_cell_angle_alpha   118.53142548
+_cell_angle_beta   90.18958282
+_cell_angle_gamma   90.18010712
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TiFe2O5
+_chemical_formula_sum   'Ti1 Fe2 O5'
+_cell_volume   84.42861635
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.37256089  0.86839247  0.84637785  1
+  Fe  Fe1  1  0.87236756  0.49103433  0.11170094  1
+  Ti  Ti2  1  0.87298876  0.22978920  0.50919312  1
+  O  O3  1  0.87180650  0.60089278  0.52975893  1
+  O  O4  1  0.37217993  0.45627233  0.78036821  1
+  O  O5  1  0.87191665  0.89078903  0.18501101  1
+  O  O6  1  0.37248787  0.26710561  0.18974087  1
+  O  O7  1  0.87130827  0.10060012  0.78187722  1
+",-2.2385352
+2,"# generated using pymatgen
+data_TiFe2O5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.56337690
+_cell_length_b   5.09644985
+_cell_length_c   5.30671978
+_cell_angle_alpha   111.76751709
+_cell_angle_beta   109.14002991
+_cell_angle_gamma   102.88008881
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TiFe2O5
+_chemical_formula_sum   'Ti1 Fe2 O5'
+_cell_volume   99.58544250
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.66299003  0.29206347  0.67009598  1
+  Fe  Fe1  1  0.25007415  0.04544766  0.03615938  1
+  Ti  Ti2  1  0.04788781  0.64860702  0.39804032  1
+  O  O3  1  0.35343751  0.42188880  0.40153778  1
+  O  O4  1  0.00189757  0.05878088  0.66592580  1
+  O  O5  1  0.33317342  0.91089171  0.33542120  1
+  O  O6  1  0.69690859  0.29941306  0.05837393  1
+  O  O7  1  0.02587502  0.62429094  0.74157536  1
+",-2.28197
+3,"# generated using pymatgen
+data_TiFe2O5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.06261063
+_cell_length_b   5.08131170
+_cell_length_c   5.27592611
+_cell_angle_alpha   103.86515045
+_cell_angle_beta   104.05154419
+_cell_angle_gamma   115.47588348
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TiFe2O5
+_chemical_formula_sum   'Ti1 Fe2 O5'
+_cell_volume   109.30094910
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.01640731  0.25515217  0.62878013  1
+  Fe  Fe1  1  0.65091741  0.65572542  0.63066041  1
+  Ti  Ti2  1  0.86422229  0.47328305  0.10396250  1
+  O  O3  1  0.19460657  0.47245452  0.37866420  1
+  O  O4  1  0.86673462  0.81994432  0.37675834  1
+  O  O5  1  0.03235111  0.63189274  0.87102598  1
+  O  O6  1  0.44616392  0.37837350  0.87155873  1
+  O  O7  1  0.76000291  0.05548507  0.86874270  1
+",-2.3241239
+4,"# generated using pymatgen
+data_TiFe2O5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.45477033
+_cell_length_b   5.37609529
+_cell_length_c   6.11119890
+_cell_angle_alpha   115.45874786
+_cell_angle_beta   107.21714783
+_cell_angle_gamma   90.03636169
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TiFe2O5
+_chemical_formula_sum   'Ti1 Fe2 O5'
+_cell_volume   96.80831637
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.04915397  0.56743884  0.63502806  1
+  Fe  Fe1  1  0.62813973  0.13367543  0.78845805  1
+  Ti  Ti2  1  0.33850572  0.35421893  0.21521991  1
+  O  O3  1  0.48657662  0.27244478  0.51485521  1
+  O  O4  1  0.83738536  0.35190076  0.21474442  1
+  O  O5  1  0.18886799  0.42046523  0.91145623  1
+  O  O6  1  0.48654199  0.73001951  0.51221204  1
+  O  O7  1  0.18851872  0.97536546  0.91176397  1
+",-2.2098088
+5,"# generated using pymatgen
+data_TiFe2O5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.27906799
+_cell_length_b   5.93899822
+_cell_length_c   6.83968496
+_cell_angle_alpha   104.79685974
+_cell_angle_beta   98.21264648
+_cell_angle_gamma   107.64569855
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TiFe2O5
+_chemical_formula_sum   'Ti2 Fe4 O10'
+_cell_volume   191.84488406
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.92163718  0.22998846  0.57771522  1
+  Fe  Fe1  1  0.73745584  0.31872588  0.15022284  1
+  Fe  Fe2  1  0.53966808  0.44309562  0.77374810  1
+  Fe  Fe3  1  0.80024707  0.84798795  0.17788517  1
+  Ti  Ti4  1  0.19506483  0.86617374  0.81885964  1
+  Ti  Ti5  1  0.35220695  0.56735611  0.36721945  1
+  O  O6  1  0.22396943  0.11016095  0.68963498  1
+  O  O7  1  0.62486511  0.38997528  0.46800333  1
+  O  O8  1  0.81949359  0.28730223  0.85370034  1
+  O  O9  1  0.46731779  0.97672182  0.05130391  1
+  O  O10  1  0.03316039  0.21854641  0.28301787  1
+  O  O11  1  0.63670814  0.87882698  0.44506568  1
+  O  O12  1  0.86822891  0.78019470  0.88446581  1
+  O  O13  1  0.05826747  0.66745347  0.27246615  1
+  O  O14  1  0.25234011  0.58133721  0.65298754  1
+  O  O15  1  0.48826820  0.50224382  0.10001906  1
+",-2.3119497
+6,"# generated using pymatgen
+data_TiFe2O5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.60830879
+_cell_length_b   5.65948820
+_cell_length_c   6.01363182
+_cell_angle_alpha   83.37828064
+_cell_angle_beta   93.14644623
+_cell_angle_gamma   89.72636414
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TiFe2O5
+_chemical_formula_sum   'Ti2 Fe4 O10'
+_cell_volume   189.30263775
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.93454319  0.81375700  0.73887604  1
+  Fe  Fe1  1  0.74742746  0.21356781  0.98181194  1
+  Fe  Fe2  1  0.12728582  0.39825058  0.48481199  1
+  Fe  Fe3  1  0.44315600  0.79820067  0.71122956  1
+  Ti  Ti4  1  0.62354451  0.60496002  0.22891088  1
+  Ti  Ti5  1  0.25343618  0.99082202  0.22418183  1
+  O  O6  1  0.50064427  0.91805267  0.05517532  1
+  O  O7  1  0.00707167  0.96432197  0.03190160  1
+  O  O8  1  0.15858425  0.55537868  0.78255337  1
+  O  O9  1  0.67366993  0.57823217  0.89811158  1
+  O  O10  1  0.77990103  0.70949042  0.46499905  1
+  O  O11  1  0.18686357  0.03395411  0.57342982  1
+  O  O12  1  0.86942452  0.35067230  0.25749639  1
+  O  O13  1  0.32270741  0.69496191  0.38443303  1
+  O  O14  1  0.38612926  0.30935416  0.21636927  1
+  O  O15  1  0.69219178  0.06602225  0.69262600  1
+",-2.3444073
+7,"# generated using pymatgen
+data_TiFe2O5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.09111309
+_cell_length_b   5.42932653
+_cell_length_c   7.01728392
+_cell_angle_alpha   99.52969360
+_cell_angle_beta   111.68141937
+_cell_angle_gamma   89.92201233
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TiFe2O5
+_chemical_formula_sum   'Ti2 Fe4 O10'
+_cell_volume   177.37798841
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.58607078  0.41486177  0.98180002  1
+  Fe  Fe1  1  0.40274373  0.97077084  0.62268841  1
+  Fe  Fe2  1  0.90234977  0.47574052  0.62322587  1
+  Fe  Fe3  1  0.77276880  0.83589625  0.35390297  1
+  Ti  Ti4  1  0.27050334  0.33861613  0.36278892  1
+  Ti  Ti5  1  0.07344925  0.91387808  0.98071235  1
+  O  O6  1  0.15339261  0.64086449  0.48447046  1
+  O  O7  1  0.58088160  0.48376003  0.30821788  1
+  O  O8  1  0.02978674  0.16105010  0.48936865  1
+  O  O9  1  0.81849641  0.74571663  0.07746331  1
+  O  O10  1  0.20103544  0.59323090  0.90520382  1
+  O  O11  1  0.35750294  0.07680806  0.90363437  1
+  O  O12  1  0.79127127  0.84443682  0.68514061  1
+  O  O13  1  0.97503936  0.24115077  0.08938860  1
+  O  O14  1  0.37925410  0.99197376  0.30785033  1
+  O  O15  1  0.56652498  0.34365669  0.67452389  1
+",-2.3471127
+8,"# generated using pymatgen
+data_TiFe2O5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.31536531
+_cell_length_b   5.29706383
+_cell_length_c   6.79721212
+_cell_angle_alpha   74.42559052
+_cell_angle_beta   82.68191528
+_cell_angle_gamma   86.64573669
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TiFe2O5
+_chemical_formula_sum   'Ti2 Fe4 O10'
+_cell_volume   182.79322928
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.24511164  0.54878145  0.84715289  1
+  Fe  Fe1  1  0.32197759  0.12228719  0.53083712  1
+  Fe  Fe2  1  0.71355313  0.95875686  0.90382802  1
+  Fe  Fe3  1  0.76103526  0.37961599  0.18001400  1
+  Ti  Ti4  1  0.82102305  0.56491929  0.61958122  1
+  Ti  Ti5  1  0.24884570  0.93977398  0.13004570  1
+  O  O6  1  0.35049042  0.14539355  0.87537533  1
+  O  O7  1  0.96897179  0.72190297  0.10006865  1
+  O  O8  1  0.84623545  0.34095341  0.87394089  1
+  O  O9  1  0.54320538  0.78274310  0.66887784  1
+  O  O10  1  0.54362571  0.04738206  0.22645125  1
+  O  O11  1  0.02105999  0.85368639  0.69956905  1
+  O  O12  1  0.13419946  0.47721356  0.53447402  1
+  O  O13  1  0.07462115  0.13921753  0.27309889  1
+  O  O14  1  0.65221280  0.38068503  0.47456655  1
+  O  O15  1  0.45340028  0.64661849  0.07022374  1
+",-2.2508144
+9,"# generated using pymatgen
+data_TiFe2O5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.23860407
+_cell_length_b   5.61746120
+_cell_length_c   7.32429361
+_cell_angle_alpha   104.09210968
+_cell_angle_beta   104.79077148
+_cell_angle_gamma   95.72557831
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TiFe2O5
+_chemical_formula_sum   'Ti2 Fe4 O10'
+_cell_volume   199.08746960
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.59667504  0.78514993  0.79963326  1
+  Fe  Fe1  1  0.07052289  0.33582655  0.86796439  1
+  Fe  Fe2  1  0.39588735  0.74943495  0.27741647  1
+  Fe  Fe3  1  0.98590028  0.65222192  0.56374317  1
+  Ti  Ti4  1  0.17991741  0.14855865  0.48631015  1
+  Ti  Ti5  1  0.60228276  0.20186779  0.15641752  1
+  O  O6  1  0.51233214  0.86795270  0.06987219  1
+  O  O7  1  0.27894247  0.47430921  0.69186205  1
+  O  O8  1  0.44932044  0.13297895  0.38245535  1
+  O  O9  1  0.76544416  0.15078105  0.93199420  1
+  O  O10  1  0.89670801  0.61286551  0.83126611  1
+  O  O11  1  0.06340505  0.80438018  0.34880185  1
+  O  O12  1  0.15331143  0.02098033  0.70806265  1
+  O  O13  1  0.36392701  0.40351176  0.10927163  1
+  O  O14  1  0.62001920  0.73233461  0.52027160  1
+  O  O15  1  0.92019165  0.31418955  0.36004901  1
+",-2.3550105
+10,"# generated using pymatgen
+data_TiFe2O5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.94325066
+_cell_length_b   6.37010574
+_cell_length_c   7.77122736
+_cell_angle_alpha   106.16135406
+_cell_angle_beta   102.22559357
+_cell_angle_gamma   90.14608002
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TiFe2O5
+_chemical_formula_sum   'Ti3 Fe6 O15'
+_cell_volume   275.58333095
+_cell_formula_units_Z   3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.45972693  0.17769262  0.93133521  1
+  Fe  Fe1  1  0.25999618  0.64220673  0.67853445  1
+  Fe  Fe2  1  0.75493568  0.44715887  0.46648958  1
+  Fe  Fe3  1  0.05366310  0.46855527  0.89889640  1
+  Fe  Fe4  1  0.58292717  0.66082960  0.12569068  1
+  Fe  Fe5  1  0.27318013  0.28320077  0.28049335  1
+  Ti  Ti6  1  0.56429821  0.93847597  0.54163754  1
+  Ti  Ti7  1  0.90787053  0.97920048  0.97703832  1
+  Ti  Ti8  1  0.06858665  0.79263616  0.32713652  1
+  O  O9  1  0.90027732  0.62618339  0.08501816  1
+  O  O10  1  0.14733697  0.22174788  0.00308003  1
+  O  O11  1  0.52601153  0.19692561  0.46189767  1
+  O  O12  1  0.02786693  0.05011080  0.24330725  1
+  O  O13  1  0.09324246  0.51844293  0.40267089  1
+  O  O14  1  0.71776211  0.09997328  0.79487222  1
+  O  O15  1  0.27358314  0.94659698  0.62001526  1
+  O  O16  1  0.39945111  0.48240295  0.88325340  1
+  O  O17  1  0.35269287  0.77719343  0.28286615  1
+  O  O18  1  0.60386819  0.92604172  0.02346412  1
+  O  O19  1  0.79320121  0.81781775  0.41096118  1
+  O  O20  1  0.06695800  0.78609419  0.85457098  1
+  O  O21  1  0.55876559  0.65479243  0.60263807  1
+  O  O22  1  0.56895703  0.38079286  0.19795011  1
+  O  O23  1  0.98292726  0.39105257  0.65204763  1
+",-2.3862395
+11,"# generated using pymatgen
+data_TiFe2O5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.98187399
+_cell_length_b   5.99177504
+_cell_length_c   8.22697639
+_cell_angle_alpha   89.87095642
+_cell_angle_beta   89.82067871
+_cell_angle_gamma   89.84208679
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TiFe2O5
+_chemical_formula_sum   'Ti3 Fe6 O15'
+_cell_volume   294.86833736
+_cell_formula_units_Z   3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.52585447  0.48662204  0.53835511  1
+  Fe  Fe1  1  0.97202939  0.00258441  0.54364634  1
+  Fe  Fe2  1  0.26791266  0.74775833  0.27492324  1
+  Fe  Fe3  1  0.26865062  0.23699541  0.27341735  1
+  Fe  Fe4  1  0.26869246  0.22851595  0.80650151  1
+  Fe  Fe5  1  0.96130449  0.48375320  0.03642298  1
+  Ti  Ti6  1  0.76545411  0.98663312  0.14982380  1
+  Ti  Ti7  1  0.01265609  0.47801319  0.53411829  1
+  Ti  Ti8  1  0.26763991  0.75307399  0.80412060  1
+  O  O9  1  0.23551099  0.25689054  0.53643829  1
+  O  O10  1  0.46067372  0.50226355  0.76724136  1
+  O  O11  1  0.77872175  0.27477673  0.54963052  1
+  O  O12  1  0.04549673  0.98516715  0.77322835  1
+  O  O13  1  0.46293020  0.49087378  0.31070912  1
+  O  O14  1  0.46725711  0.97590333  0.78467679  1
+  O  O15  1  0.23343229  0.26259440  0.03870311  1
+  O  O16  1  0.77152282  0.74075729  0.04858743  1
+  O  O17  1  0.01945662  0.99495214  0.29490438  1
+  O  O18  1  0.20267558  0.72249162  0.54027498  1
+  O  O19  1  0.23463716  0.71868020  0.02653110  1
+  O  O20  1  0.76988101  0.23762132  0.04105016  1
+  O  O21  1  0.02000030  0.48954609  0.29202831  1
+  O  O22  1  0.49749863  0.99246782  0.27412283  1
+  O  O23  1  0.02377900  0.49872544  0.78877318  1
+",-2.3139324
+12,"# generated using pymatgen
+data_TiFe2O5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.96753836
+_cell_length_b   7.18251657
+_cell_length_c   7.92371035
+_cell_angle_alpha   114.02270508
+_cell_angle_beta   110.47782898
+_cell_angle_gamma   94.10468292
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TiFe2O5
+_chemical_formula_sum   'Ti3 Fe6 O15'
+_cell_volume   281.37054330
+_cell_formula_units_Z   3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.99316877  0.15425573  0.92052072  1
+  Fe  Fe1  1  0.43354937  0.34581175  0.81739491  1
+  Fe  Fe2  1  0.36082515  0.93135154  0.49319151  1
+  Fe  Fe3  1  0.90348959  0.62373430  0.16568805  1
+  Fe  Fe4  1  0.43694204  0.91460961  0.12405965  1
+  Fe  Fe5  1  0.99867803  0.57449925  0.77939552  1
+  Ti  Ti6  1  0.59809643  0.78127396  0.78822744  1
+  Ti  Ti7  1  0.43517649  0.42971036  0.28025907  1
+  Ti  Ti8  1  0.92358494  0.12882799  0.44968614  1
+  O  O9  1  0.61253184  0.99369025  0.41102523  1
+  O  O10  1  0.56567961  0.50927812  0.12812658  1
+  O  O11  1  0.80098796  0.39998996  0.47995031  1
+  O  O12  1  0.02464669  0.85335261  0.43226486  1
+  O  O13  1  0.33824867  0.15516670  0.11407699  1
+  O  O14  1  0.90168518  0.84494478  0.79724646  1
+  O  O15  1  0.33509490  0.69359475  0.83517069  1
+  O  O16  1  0.44449905  0.66195637  0.50477600  1
+  O  O17  1  0.17259525  0.75496900  0.12977619  1
+  O  O18  1  0.58742523  0.07949542  0.79444540  1
+  O  O19  1  0.07028271  0.28619865  0.75690287  1
+  O  O20  1  0.72332299  0.53625792  0.85576636  1
+  O  O21  1  0.75629687  0.96634269  0.12606397  1
+  O  O22  1  0.05711748  0.39566401  0.16331735  1
+  O  O23  1  0.26934183  0.21161148  0.50895607  1
+",-2.360888
+13,"# generated using pymatgen
+data_TiFe2O5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.79528809
+_cell_length_b   6.82363701
+_cell_length_c   6.87940598
+_cell_angle_alpha   93.94018555
+_cell_angle_beta   89.97202301
+_cell_angle_gamma   90.44371796
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TiFe2O5
+_chemical_formula_sum   'Ti3 Fe6 O15'
+_cell_volume   271.39454678
+_cell_formula_units_Z   3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.27866483  0.08581752  0.32312939  1
+  Fe  Fe1  1  0.01736088  0.81430483  0.57219982  1
+  Fe  Fe2  1  0.78879488  0.32450515  0.56153488  1
+  Fe  Fe3  1  0.57439822  0.33324349  0.09243612  1
+  Fe  Fe4  1  0.05661753  0.10859701  0.85715455  1
+  Fe  Fe5  1  0.78974760  0.80540252  0.05520665  1
+  Ti  Ti6  1  0.07203282  0.53943551  0.28860471  1
+  Ti  Ti7  1  0.52555257  0.03499595  0.78769678  1
+  Ti  Ti8  1  0.27793831  0.56874728  0.81490582  1
+  O  O9  1  0.04052361  0.83734262  0.28496161  1
+  O  O10  1  0.80226302  0.53673178  0.11665743  1
+  O  O11  1  0.04722978  0.36755982  0.77451062  1
+  O  O12  1  0.77023369  0.09264531  0.01353698  1
+  O  O13  1  0.79778379  0.03918819  0.63192624  1
+  O  O14  1  0.03913576  0.28972900  0.35971624  1
+  O  O15  1  0.27506980  0.02328973  0.61694592  1
+  O  O16  1  0.04439538  0.78830159  0.85433209  1
+  O  O17  1  0.32786244  0.11190622  0.02361739  1
+  O  O18  1  0.55377042  0.26520458  0.35830691  1
+  O  O19  1  0.52963924  0.77978045  0.86200547  1
+  O  O20  1  0.27059764  0.61318409  0.54150420  1
+  O  O21  1  0.30792159  0.52246606  0.10094099  1
+  O  O22  1  0.54111904  0.33754298  0.78661460  1
+  O  O23  1  0.81887269  0.59577519  0.51020730  1
+",-2.2724788
+14,"# generated using pymatgen
+data_TiFe2O5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.47980976
+_cell_length_b   6.23886204
+_cell_length_c   8.46242809
+_cell_angle_alpha   91.02391052
+_cell_angle_beta   90.61479950
+_cell_angle_gamma   83.34239960
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TiFe2O5
+_chemical_formula_sum   'Ti3 Fe6 O15'
+_cell_volume   287.30389050
+_cell_formula_units_Z   3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.68500495  0.43181548  0.59127486  1
+  Fe  Fe1  1  0.02439991  0.06437813  0.21426260  1
+  Fe  Fe2  1  0.82836658  0.96203703  0.78123426  1
+  Fe  Fe3  1  0.34597376  0.71793365  0.90822244  1
+  Fe  Fe4  1  0.47757977  0.24663031  0.07717671  1
+  Fe  Fe5  1  0.20168363  0.25636870  0.63227892  1
+  Ti  Ti6  1  0.94593030  0.41781288  0.94880539  1
+  Ti  Ti7  1  0.83904868  0.54381913  0.29051289  1
+  Ti  Ti8  1  0.41335711  0.87040561  0.53616750  1
+  O  O9  1  0.98466003  0.70314485  0.90663886  1
+  O  O10  1  0.00742854  0.48803744  0.49497131  1
+  O  O11  1  0.31807902  0.97349483  0.07398376  1
+  O  O12  1  0.64881092  0.53279269  0.07384349  1
+  O  O13  1  0.23036227  0.06237828  0.40893796  1
+  O  O14  1  0.54150409  0.63888043  0.41937497  1
+  O  O15  1  0.15950587  0.93567234  0.69116759  1
+  O  O16  1  0.30534142  0.36970279  0.86898148  1
+  O  O17  1  0.88760906  0.30046436  0.75673527  1
+  O  O18  1  0.90641630  0.80577493  0.25938338  1
+  O  O19  1  0.56465054  0.11595200  0.61256921  1
+  O  O20  1  0.73361182  0.25491279  0.30334154  1
+  O  O21  1  0.81445253  0.12372486  0.00198174  1
+  O  O22  1  0.57966554  0.72320735  0.72293651  1
+  O  O23  1  0.11513460  0.38118100  0.16039477  1
+",-2.310597
+15,"# generated using pymatgen
+data_TiFe2O5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.37691259
+_cell_length_b   7.93599749
+_cell_length_c   8.64525414
+_cell_angle_alpha   111.45459747
+_cell_angle_beta   110.46449280
+_cell_angle_gamma   91.93749237
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TiFe2O5
+_chemical_formula_sum   'Ti4 Fe8 O20'
+_cell_volume   374.88090059
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.28823063  0.29475531  0.86971015  1
+  Fe  Fe1  1  0.28553301  0.89961994  0.86783814  1
+  Fe  Fe2  1  0.88894051  0.04835024  0.50459701  1
+  Fe  Fe3  1  0.37212124  0.53629196  0.56682086  1
+  Fe  Fe4  1  0.96573853  0.62150806  0.26857525  1
+  Fe  Fe5  1  0.95431644  0.47111976  0.62199473  1
+  Fe  Fe6  1  0.46315941  0.14391358  0.26708379  1
+  Fe  Fe7  1  0.78574812  0.76528990  0.88171804  1
+  Ti  Ti8  1  0.36974770  0.98462129  0.56045836  1
+  Ti  Ti9  1  0.98561341  0.21106273  0.24755010  1
+  Ti  Ti10  1  0.78721857  0.36386386  0.87654406  1
+  Ti  Ti11  1  0.47118071  0.73571503  0.22921856  1
+  O  O12  1  0.48791149  0.80308461  0.73946857  1
+  O  O13  1  0.82895052  0.62293887  0.02512378  1
+  O  O14  1  0.33788902  0.15541850  0.02344096  1
+  O  O15  1  0.16454032  0.99309874  0.66864491  1
+  O  O16  1  0.38676557  0.51507938  0.07149851  1
+  O  O17  1  0.90755475  0.35268241  0.10550022  1
+  O  O18  1  0.77249402  0.77983147  0.35710043  1
+  O  O19  1  0.01800538  0.73968995  0.79388851  1
+  O  O20  1  0.67668962  0.48913163  0.67082942  1
+  O  O21  1  0.29134768  0.74138933  0.35794815  1
+  O  O22  1  0.53121823  0.20419125  0.78801256  1
+  O  O23  1  0.95689631  0.27496767  0.74808502  1
+  O  O24  1  0.79338396  0.23984151  0.37756753  1
+  O  O25  1  0.86418897  0.00009323  0.05789376  1
+  O  O26  1  0.05802726  0.54718071  0.46229300  1
+  O  O27  1  0.30559042  0.32497782  0.34349722  1
+  O  O28  1  0.56506819  0.03196691  0.45976776  1
+  O  O29  1  0.11901356  0.06789310  0.40137607  1
+  O  O30  1  0.26942876  0.45637372  0.72080821  1
+  O  O31  1  0.40827641  0.87818682  0.10620970  1
+",-2.3544106
+16,"# generated using pymatgen
+data_TiFe2O5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.06917286
+_cell_length_b   6.56391335
+_cell_length_c   9.00276661
+_cell_angle_alpha   97.99929047
+_cell_angle_beta   100.13534546
+_cell_angle_gamma   108.09643555
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TiFe2O5
+_chemical_formula_sum   'Ti4 Fe8 O20'
+_cell_volume   328.30904779
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.45684811  0.22349860  0.68465734  1
+  Fe  Fe1  1  0.90201950  0.76891237  0.47980654  1
+  Fe  Fe2  1  0.95636082  0.14880332  0.81700319  1
+  Fe  Fe3  1  0.94511408  0.63003546  0.82878864  1
+  Fe  Fe4  1  0.92356652  0.97686452  0.18213478  1
+  Fe  Fe5  1  0.43062741  0.36471707  0.32373372  1
+  Fe  Fe6  1  0.43691510  0.54541653  0.97756010  1
+  Fe  Fe7  1  0.42602560  0.89265221  0.32315251  1
+  Ti  Ti8  1  0.94338840  0.30018839  0.49917883  1
+  Ti  Ti9  1  0.47437605  0.72352070  0.66402519  1
+  Ti  Ti10  1  0.44192073  0.03924714  0.00000183  1
+  Ti  Ti11  1  0.92370385  0.48009941  0.15500486  1
+  O  O12  1  0.84782988  0.70159286  0.02065771  1
+  O  O13  1  0.77375525  0.44867948  0.40149677  1
+  O  O14  1  0.83630806  0.35647017  0.69613409  1
+  O  O15  1  0.76966780  0.13660198  0.04321689  1
+  O  O16  1  0.28186512  0.06360044  0.16572735  1
+  O  O17  1  0.07244166  0.44402170  0.98510164  1
+  O  O18  1  0.58319402  0.42343760  0.13636188  1
+  O  O19  1  0.08917773  0.33519018  0.29464778  1
+  O  O20  1  0.81799549  0.01131657  0.38231355  1
+  O  O21  1  0.07163060  0.75027019  0.29517862  1
+  O  O22  1  0.52105319  0.81312299  0.12987225  1
+  O  O23  1  0.85819429  0.82826149  0.70836264  1
+  O  O24  1  0.31270343  0.19333227  0.88700819  1
+  O  O25  1  0.56840718  0.00926407  0.74694425  1
+  O  O26  1  0.52602005  0.52710783  0.76322621  1
+  O  O27  1  0.27955535  0.77008009  0.88101989  1
+  O  O28  1  0.11846843  0.18013617  0.62104487  1
+  O  O29  1  0.45560449  0.15073438  0.46495274  1
+  O  O30  1  0.51408970  0.68665838  0.45143676  1
+  O  O31  1  0.15234086  0.62174553  0.58830154  1
+",-2.3271942
+17,"# generated using pymatgen
+data_TiFe2O5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.71606874
+_cell_length_b   7.31338072
+_cell_length_c   9.17161942
+_cell_angle_alpha   103.80852509
+_cell_angle_beta   92.61940002
+_cell_angle_gamma   103.06503296
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TiFe2O5
+_chemical_formula_sum   'Ti4 Fe8 O20'
+_cell_volume   360.67117134
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.09371054  0.36252463  0.62608391  1
+  Fe  Fe1  1  0.18164799  0.77089065  0.22208065  1
+  Fe  Fe2  1  0.06241053  0.90077049  0.62949902  1
+  Fe  Fe3  1  0.70673192  0.95771354  0.89255470  1
+  Fe  Fe4  1  0.58095497  0.40458038  0.14695759  1
+  Fe  Fe5  1  0.88999438  0.57451582  0.42615288  1
+  Fe  Fe6  1  0.72175688  0.48359495  0.77240711  1
+  Fe  Fe7  1  0.27816230  0.19055195  0.34106946  1
+  Ti  Ti8  1  0.34935293  0.58343863  0.93636739  1
+  Ti  Ti9  1  0.51993382  0.98233616  0.54904628  1
+  Ti  Ti10  1  0.28041586  0.06027151  0.95491749  1
+  Ti  Ti11  1  0.77214062  0.12277976  0.27592289  1
+  O  O12  1  0.49405432  0.99740219  0.33406031  1
+  O  O13  1  0.68097860  0.71818608  0.92667150  1
+  O  O14  1  0.40400371  0.52255237  0.71081460  1
+  O  O15  1  0.04448062  0.44270167  0.86115634  1
+  O  O16  1  0.40126076  0.60757953  0.15527497  1
+  O  O17  1  0.59404844  0.37198949  0.35566968  1
+  O  O18  1  0.03558607  0.33486524  0.39983061  1
+  O  O19  1  0.75033844  0.83760488  0.51712579  1
+  O  O20  1  0.25298846  0.81840992  0.00422291  1
+  O  O21  1  0.42534393  0.96453857  0.75865710  1
+  O  O22  1  0.50863099  0.35868227  0.92638713  1
+  O  O23  1  0.01045122  0.01523537  0.82985920  1
+  O  O24  1  0.89423794  0.57144403  0.20837100  1
+  O  O25  1  0.25170457  0.13156451  0.56174260  1
+  O  O26  1  0.74180698  0.22671372  0.62284291  1
+  O  O27  1  0.93381321  0.60785145  0.64421582  1
+  O  O28  1  0.66057658  0.12929828  0.08100730  1
+  O  O29  1  0.22564191  0.76526648  0.45984676  1
+  O  O30  1  0.98539126  0.96577603  0.25802800  1
+  O  O31  1  0.24575526  0.21262339  0.12415404  1
+",-2.3140514
+18,"# generated using pymatgen
+data_TiFe2O5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.84302807
+_cell_length_b   8.01749802
+_cell_length_c   8.22668552
+_cell_angle_alpha   102.22662354
+_cell_angle_beta   109.42134857
+_cell_angle_gamma   102.95446014
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TiFe2O5
+_chemical_formula_sum   'Ti4 Fe8 O20'
+_cell_volume   394.18969678
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.72449416  0.19049387  0.77565837  1
+  Fe  Fe1  1  0.00920111  0.54694772  0.33747277  1
+  Fe  Fe2  1  0.78964484  0.57591665  0.69383448  1
+  Fe  Fe3  1  0.13173710  0.31396872  0.03764869  1
+  Fe  Fe4  1  0.46123135  0.15669703  0.37962162  1
+  Fe  Fe5  1  0.97226948  0.18753147  0.32677236  1
+  Fe  Fe6  1  0.28475985  0.38470474  0.71363854  1
+  Fe  Fe7  1  0.18528144  0.69513434  0.99284387  1
+  Ti  Ti8  1  0.71008754  0.73639709  0.08052774  1
+  Ti  Ti9  1  0.16665183  0.97235006  0.71130174  1
+  Ti  Ti10  1  0.59444892  0.29597691  0.08713426  1
+  Ti  Ti11  1  0.44144195  0.79093987  0.42030877  1
+  O  O12  1  0.22063500  0.21152267  0.23787411  1
+  O  O13  1  0.68168360  0.28777117  0.32061344  1
+  O  O14  1  0.42325163  0.64553392  0.91180426  1
+  O  O15  1  0.36048380  0.32012320  0.94495159  1
+  O  O16  1  0.55275327  0.34917989  0.64872795  1
+  O  O17  1  0.34554845  0.90229845  0.21143061  1
+  O  O18  1  0.86344182  0.70440686  0.95025939  1
+  O  O19  1  0.20739987  0.80012357  0.49080402  1
+  O  O20  1  0.74578893  0.57836282  0.20646340  1
+  O  O21  1  0.79366732  0.95620000  0.20720311  1
+  O  O22  1  0.12634765  0.12626427  0.56731969  1
+  O  O23  1  0.95897311  0.07644205  0.83733857  1
+  O  O24  1  0.48710886  0.06578197  0.86090177  1
+  O  O25  1  0.61831063  0.68281943  0.54726261  1
+  O  O26  1  0.61090171  0.03311535  0.53558707  1
+  O  O27  1  0.12353060  0.44047189  0.49890903  1
+  O  O28  1  0.08878909  0.77726674  0.77348822  1
+  O  O29  1  0.86711204  0.30201572  0.09016125  1
+  O  O30  1  0.99149185  0.42101321  0.81561679  1
+  O  O31  1  0.24629587  0.57863939  0.20584783  1
+",-2.3387234
+19,"# generated using pymatgen
+data_TiFe2O5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.27122545
+_cell_length_b   8.17725754
+_cell_length_c   8.30237293
+_cell_angle_alpha   84.17610168
+_cell_angle_beta   85.65170288
+_cell_angle_gamma   85.70101166
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TiFe2O5
+_chemical_formula_sum   'Ti4 Fe8 O20'
+_cell_volume   421.36860076
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.70444995  0.95074958  0.36928952  1
+  Fe  Fe1  1  0.34790388  0.81960785  0.89803189  1
+  Fe  Fe2  1  0.89290589  0.77447802  0.98512602  1
+  Fe  Fe3  1  0.53413731  0.55671090  0.46615925  1
+  Fe  Fe4  1  0.23183896  0.54800332  0.20335490  1
+  Fe  Fe5  1  0.44178113  0.17997615  0.68580842  1
+  Fe  Fe6  1  0.14744292  0.11694203  0.32935539  1
+  Fe  Fe7  1  0.80017459  0.38098398  0.19821726  1
+  Ti  Ti8  1  0.70070732  0.47959125  0.83807075  1
+  Ti  Ti9  1  0.95234507  0.98610580  0.66938072  1
+  Ti  Ti10  1  0.04289432  0.41402018  0.53800535  1
+  Ti  Ti11  1  0.63097847  0.08346219  0.05020473  1
+  O  O12  1  0.18978713  0.76403397  0.10276542  1
+  O  O13  1  0.92284626  0.54557365  0.04757099  1
+  O  O14  1  0.22248602  0.56951463  0.45570630  1
+  O  O15  1  0.13131735  0.34394389  0.25418955  1
+  O  O16  1  0.71912754  0.86266136  0.14611398  1
+  O  O17  1  0.41788396  0.04462256  0.89527041  1
+  O  O18  1  0.09461392  0.80296630  0.77958548  1
+  O  O19  1  0.51114786  0.41312698  0.69039571  1
+  O  O20  1  0.15817231  0.18495131  0.57621962  1
+  O  O21  1  0.63083333  0.69295347  0.86728740  1
+  O  O22  1  0.00600397  0.92684299  0.45849857  1
+  O  O23  1  0.83969849  0.14485005  0.22894576  1
+  O  O24  1  0.59905529  0.76260829  0.47370791  1
+  O  O25  1  0.81184888  0.43605989  0.42900687  1
+  O  O26  1  0.64330196  0.30876008  0.99862742  1
+  O  O27  1  0.67314571  0.06778737  0.58066416  1
+  O  O28  1  0.44104204  0.06500155  0.26385239  1
+  O  O29  1  0.95794135  0.44966242  0.73152125  1
+  O  O30  1  0.52323717  0.51263839  0.23203900  1
+  O  O31  1  0.86265618  0.02591293  0.88918036  1
+",-2.3226278

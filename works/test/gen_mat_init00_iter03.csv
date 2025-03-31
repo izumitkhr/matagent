@@ -1,0 +1,736 @@
+,cif,predicted
+0,"# generated using pymatgen
+data_LaTiAlV2O6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.01087475
+_cell_length_b   5.46761036
+_cell_length_c   6.52925444
+_cell_angle_alpha   90.39348602
+_cell_angle_beta   89.95953369
+_cell_angle_gamma   111.33012390
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LaTiAlV2O6
+_chemical_formula_sum   'La1 Ti1 Al1 V2 O6'
+_cell_volume   133.37428935
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.63434350  0.68610430  0.77786583  1
+  Al  Al1  1  0.94824326  0.31449407  0.03794548  1
+  Ti  Ti2  1  0.94905704  0.31220576  0.52134234  1
+  V  V3  1  0.29210085  0.99632722  0.26950058  1
+  V  V4  1  0.60165322  0.63386291  0.27378127  1
+  O  O5  1  0.13806419  0.69086093  0.49260980  1
+  O  O6  1  0.13603786  0.68081343  0.05053994  1
+  O  O7  1  0.45405760  0.31699103  0.49088377  1
+  O  O8  1  0.45401588  0.31537107  0.04871448  1
+  O  O9  1  0.83798069  0.07798262  0.27017778  1
+  O  O10  1  0.87986439  0.16329397  0.77695513  1
+",-3.0252
+1,"# generated using pymatgen
+data_LaTiAlV2O6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.42017317
+_cell_length_b   5.41785669
+_cell_length_c   5.68296385
+_cell_angle_alpha   100.18656921
+_cell_angle_beta   100.73717499
+_cell_angle_gamma   117.20731354
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LaTiAlV2O6
+_chemical_formula_sum   'La1 Ti1 Al1 V2 O6'
+_cell_volume   139.11009255
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.56304216  0.37905329  0.59688860  1
+  Al  Al1  1  0.21395859  0.72507936  0.59759527  1
+  Ti  Ti2  1  0.38868934  0.55942404  0.10098796  1
+  V  V3  1  0.71808165  0.22302830  0.09984062  1
+  V  V4  1  0.04108620  0.90561193  0.09875352  1
+  O  O5  1  0.82126665  0.66095847  0.33836603  1
+  O  O6  1  0.02190995  0.51851857  0.86380923  1
+  O  O7  1  0.58177364  0.79877496  0.86244011  1
+  O  O8  1  0.13193275  0.35597736  0.33804733  1
+  O  O9  1  0.42643431  0.92009693  0.33624420  1
+  O  O10  1  0.29728398  0.13075644  0.86607844  1
+",-2.9342914
+2,"# generated using pymatgen
+data_LaTiAlV2O6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.42022038
+_cell_length_b   5.42513704
+_cell_length_c   5.60232973
+_cell_angle_alpha   100.52832031
+_cell_angle_beta   100.36099243
+_cell_angle_gamma   118.56612396
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LaTiAlV2O6
+_chemical_formula_sum   'La1 Ti1 Al1 V2 O6'
+_cell_volume   135.26564972
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.63306558  0.18044315  0.55114603  1
+  Al  Al1  1  0.46263957  0.36262971  0.05057835  1
+  Ti  Ti2  1  0.27454957  0.54254198  0.54985100  1
+  V  V3  1  0.11430930  0.69127691  0.04972861  1
+  V  V4  1  0.79255646  0.01736193  0.05118944  1
+  O  O5  1  0.51451862  0.71586972  0.26548538  1
+  O  O6  1  0.66855931  0.60749155  0.81714791  1
+  O  O7  1  0.85989594  0.44762790  0.26272506  1
+  O  O8  1  0.36844128  0.94637567  0.82425827  1
+  O  O9  1  0.21019119  0.15845115  0.26536423  1
+  O  O10  1  0.10890552  0.31453547  0.81788063  1
+",-2.875193
+3,"# generated using pymatgen
+data_LaTiAlV2O6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.20637369
+_cell_length_b   5.56775522
+_cell_length_c   6.45339918
+_cell_angle_alpha   76.23502350
+_cell_angle_beta   70.60535431
+_cell_angle_gamma   67.80631256
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LaTiAlV2O6
+_chemical_formula_sum   'La1 Ti1 Al1 V2 O6'
+_cell_volume   130.90053956
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.45185852  0.07152843  0.01973379  1
+  Al  Al1  1  0.01810733  0.67420095  0.30677098  1
+  Ti  Ti2  1  0.64355725  0.29508322  0.41925773  1
+  V  V3  1  0.87143946  0.50309730  0.76048964  1
+  V  V4  1  0.24094866  0.88372791  0.63240069  1
+  O  O5  1  0.12614369  0.30503893  0.43049794  1
+  O  O6  1  0.10926159  0.76778436  0.00115148  1
+  O  O7  1  0.42909706  0.43316334  0.70769507  1
+  O  O8  1  0.79699743  0.31649080  0.09327877  1
+  O  O9  1  0.47697386  0.69391555  0.32553512  1
+  O  O10  1  0.76783752  0.90979242  0.54108065  1
+",-2.9556568
+4,"# generated using pymatgen
+data_LaTiAlV2O6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.28437233
+_cell_length_b   5.31846333
+_cell_length_c   5.60284710
+_cell_angle_alpha   100.58539581
+_cell_angle_beta   100.65312195
+_cell_angle_gamma   119.65496063
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LaTiAlV2O6
+_chemical_formula_sum   'La1 Ti1 Al1 V2 O6'
+_cell_volume   127.31171775
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.89183015  0.12621668  0.45403966  1
+  Al  Al1  1  0.46736169  0.37455881  0.19974087  1
+  Ti  Ti2  1  0.34210345  0.90657377  0.74011874  1
+  V  V3  1  0.14738262  0.69708067  0.16274285  1
+  V  V4  1  0.66580105  0.57827055  0.75306726  1
+  O  O5  1  0.69994742  0.30583370  0.96932876  1
+  O  O6  1  0.89265841  0.62081742  0.47296590  1
+  O  O7  1  0.43966800  0.67568225  0.97078407  1
+  O  O8  1  0.10936382  0.00775292  0.96659791  1
+  O  O9  1  0.39877719  0.11985427  0.44388992  1
+  O  O10  1  0.38729876  0.61116034  0.44460869  1
+",-3.0472984
+5,"# generated using pymatgen
+data_LaTiAlV2O6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.16593742
+_cell_length_b   6.93080330
+_cell_length_c   7.12410164
+_cell_angle_alpha   97.83409882
+_cell_angle_beta   95.07265472
+_cell_angle_gamma   102.62482452
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LaTiAlV2O6
+_chemical_formula_sum   'La2 Ti2 Al2 V4 O12'
+_cell_volume   292.10546816
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.19404520  0.10765411  0.07897943  1
+  La  La1  1  0.93978322  0.16097452  0.60653430  1
+  Al  Al2  1  0.76789808  0.29441538  0.02052541  1
+  Al  Al3  1  0.41600627  0.44600308  0.52124703  1
+  Ti  Ti4  1  0.28738058  0.88963139  0.43299401  1
+  Ti  Ti5  1  0.33685631  0.56566161  0.06381922  1
+  V  V6  1  0.70660144  0.94140643  0.19689064  1
+  V  V7  1  0.51705247  0.84101439  0.77256042  1
+  V  V8  1  0.87191230  0.55117321  0.33926645  1
+  V  V9  1  0.01751041  0.63372248  0.75436336  1
+  O  O10  1  0.55965775  0.42653668  0.10206556  1
+  O  O11  1  0.39397454  0.84120816  0.11020197  1
+  O  O12  1  0.29190621  0.18452397  0.43843243  1
+  O  O13  1  0.98081470  0.84987742  0.29142913  1
+  O  O14  1  0.25355354  0.57210654  0.34966984  1
+  O  O15  1  0.72983086  0.48430181  0.57236677  1
+  O  O16  1  0.18134382  0.90527207  0.69807804  1
+  O  O17  1  0.86080962  0.23902252  0.25958949  1
+  O  O18  1  0.77948964  0.03880650  0.91821271  1
+  O  O19  1  0.33917159  0.55002677  0.75261015  1
+  O  O20  1  0.03147836  0.41719863  0.94464564  1
+  O  O21  1  0.59202659  0.92843729  0.49557501  1
+",-3.01936
+6,"# generated using pymatgen
+data_LaTiAlV2O6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.36987638
+_cell_length_b   6.12074900
+_cell_length_c   7.90491009
+_cell_angle_alpha   81.69718933
+_cell_angle_beta   89.54563904
+_cell_angle_gamma   89.11694336
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LaTiAlV2O6
+_chemical_formula_sum   'La2 Ti2 Al2 V4 O12'
+_cell_volume   257.05792672
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.34189227  0.08768499  0.94587839  1
+  La  La1  1  0.84318596  0.59961826  0.44555375  1
+  Al  Al2  1  0.34064651  0.61211568  0.70511287  1
+  Al  Al3  1  0.33777505  0.92136079  0.36052051  1
+  Ti  Ti4  1  0.84062243  0.05289734  0.66631007  1
+  Ti  Ti5  1  0.34089306  0.55094463  0.16684626  1
+  V  V6  1  0.83834887  0.42534834  0.86356086  1
+  V  V7  1  0.34446096  0.24789585  0.52090287  1
+  V  V8  1  0.84329963  0.74417186  0.02252955  1
+  V  V9  1  0.83971488  0.11780670  0.21149044  1
+  O  O10  1  0.28016898  0.60442066  0.44535515  1
+  O  O11  1  0.62478465  0.36742049  0.65447253  1
+  O  O12  1  0.02497077  0.75970250  0.75846916  1
+  O  O13  1  0.12744246  0.85734332  0.16836768  1
+  O  O14  1  0.59792548  0.79462820  0.22642471  1
+  O  O15  1  0.51834875  0.90843701  0.59976494  1
+  O  O16  1  0.49337745  0.58215106  0.93365997  1
+  O  O17  1  0.77800953  0.08261172  0.92562032  1
+  O  O18  1  0.03923820  0.07254648  0.45208341  1
+  O  O19  1  0.02536903  0.42707658  0.10745955  1
+  O  O20  1  0.47063464  0.24427341  0.25699338  1
+  O  O21  1  0.12794141  0.32303450  0.72737187  1
+",-3.0557947
+7,"# generated using pymatgen
+data_LaTiAlV2O6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.88414431
+_cell_length_b   7.00860882
+_cell_length_c   9.70110607
+_cell_angle_alpha   93.81047821
+_cell_angle_beta   89.95339966
+_cell_angle_gamma   89.85523224
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LaTiAlV2O6
+_chemical_formula_sum   'La2 Ti2 Al2 V4 O12'
+_cell_volume   263.50307667
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.11557130  0.73650110  0.49394384  1
+  La  La1  1  0.11553778  0.30540955  0.03250985  1
+  Al  Al2  1  0.11538836  0.17708623  0.55904156  1
+  Al  Al3  1  0.61546326  0.08991880  0.33191416  1
+  Ti  Ti4  1  0.11590751  0.79215997  0.83873993  1
+  Ti  Ti5  1  0.61507750  0.44997716  0.68971378  1
+  V  V6  1  0.61547965  0.51646584  0.29025650  1
+  V  V7  1  0.61482596  0.79963827  0.00674019  1
+  V  V8  1  0.61583960  0.05154157  0.74927008  1
+  V  V9  1  0.11515365  0.83058983  0.18278827  1
+  O  O10  1  0.61516941  0.31098253  0.85508341  1
+  O  O11  1  0.11516404  0.55400133  0.26502696  1
+  O  O12  1  0.61493236  0.73277670  0.78163761  1
+  O  O13  1  0.61476660  0.84087294  0.23959382  1
+  O  O14  1  0.61525911  0.24463716  0.19518392  1
+  O  O15  1  0.11517191  0.05271586  0.37649935  1
+  O  O16  1  0.11531900  0.98138744  0.68735176  1
+  O  O17  1  0.11496700  0.42789862  0.66135305  1
+  O  O18  1  0.11532459  0.97434229  0.99691457  1
+  O  O19  1  0.11549260  0.63162863  0.98346680  1
+  O  O20  1  0.61515546  0.57504815  0.50727874  1
+  O  O21  1  0.61529630  0.19176640  0.55093735  1
+",-3.0197632
+8,"# generated using pymatgen
+data_LaTiAlV2O6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.01511526
+_cell_length_b   6.29743338
+_cell_length_c   7.94897127
+_cell_angle_alpha   109.45755005
+_cell_angle_beta   108.42829132
+_cell_angle_gamma   90.12126923
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LaTiAlV2O6
+_chemical_formula_sum   'La2 Ti2 Al2 V4 O12'
+_cell_volume   267.40092087
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.88655490  0.20367160  0.80218971  1
+  La  La1  1  0.88594115  0.70148045  0.80295563  1
+  Al  Al2  1  0.29502085  0.60753697  0.63681662  1
+  Al  Al3  1  0.51798731  0.49842516  0.03156468  1
+  Ti  Ti4  1  0.29667720  0.10581321  0.63441581  1
+  Ti  Ti5  1  0.92180127  0.21652305  0.32508224  1
+  V  V6  1  0.51918322  0.98258835  0.02082337  1
+  V  V7  1  0.41802272  0.75020134  0.35587972  1
+  V  V8  1  0.41842991  0.24686694  0.35326585  1
+  V  V9  1  0.91243064  0.72048402  0.32752898  1
+  O  O10  1  0.06462559  0.84597719  0.61756200  1
+  O  O11  1  0.52512193  0.37446001  0.65469629  1
+  O  O12  1  0.17099087  0.00549548  0.36078501  1
+  O  O13  1  0.05261270  0.34810820  0.60762542  1
+  O  O14  1  0.33903205  0.22338742  0.91017991  1
+  O  O15  1  0.66702414  0.98549670  0.31845152  1
+  O  O16  1  0.33787581  0.68711555  0.91163993  1
+  O  O17  1  0.80302125  0.57247669  0.04321482  1
+  O  O18  1  0.84675163  0.07822267  0.05496482  1
+  O  O19  1  0.51881915  0.86673987  0.65702254  1
+  O  O20  1  0.62540489  0.48119107  0.29601088  1
+  O  O21  1  0.16430914  0.48115405  0.36175111  1
+",-3.0001416
+9,"# generated using pymatgen
+data_LaTiAlV2O6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.37903690
+_cell_length_b   6.22954226
+_cell_length_c   7.61087179
+_cell_angle_alpha   89.94790649
+_cell_angle_beta   89.85241699
+_cell_angle_gamma   89.94026184
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LaTiAlV2O6
+_chemical_formula_sum   'La2 Ti2 Al2 V4 O12'
+_cell_volume   255.03113913
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.39239389  0.30901417  0.28117844  1
+  La  La1  1  0.89295119  0.80827373  0.77915591  1
+  Al  Al2  1  0.40038976  0.80928004  0.04752753  1
+  Al  Al3  1  0.89814740  0.30918074  0.54880583  1
+  Ti  Ti4  1  0.39959058  0.80752289  0.50605601  1
+  Ti  Ti5  1  0.89904886  0.30751419  0.00705148  1
+  V  V6  1  0.39196205  0.48726812  0.78644735  1
+  V  V7  1  0.39369175  0.12130690  0.78096420  1
+  V  V8  1  0.89367419  0.98586076  0.28183854  1
+  V  V9  1  0.89583558  0.62160641  0.28133449  1
+  O  O10  1  0.15502682  0.05801047  0.48503953  1
+  O  O11  1  0.65782636  0.05679819  0.98371881  1
+  O  O12  1  0.16459326  0.56555909  0.07415235  1
+  O  O13  1  0.66136003  0.06554040  0.57376128  1
+  O  O14  1  0.15390538  0.55481243  0.48524198  1
+  O  O15  1  0.33595213  0.80858105  0.78216964  1
+  O  O16  1  0.83697563  0.30875924  0.28119925  1
+  O  O17  1  0.03741102  0.31033257  0.77789110  1
+  O  O18  1  0.53663164  0.80967689  0.27762243  1
+  O  O19  1  0.66056001  0.55530530  0.57495052  1
+  O  O20  1  0.16491666  0.05584321  0.07425806  1
+  O  O21  1  0.66012383  0.56166816  0.98370743  1
+",-3.0349162
+10,"# generated using pymatgen
+data_LaTiAlV2O6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.95219326
+_cell_length_b   6.73047161
+_cell_length_c   11.52651882
+_cell_angle_alpha   100.51528931
+_cell_angle_beta   98.16203308
+_cell_angle_gamma   110.10818481
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LaTiAlV2O6
+_chemical_formula_sum   'La3 Ti3 Al3 V6 O18'
+_cell_volume   415.72380100
+_cell_formula_units_Z   3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.37840447  0.73070687  0.98979318  1
+  La  La1  1  0.24492657  0.99403483  0.48530561  1
+  La  La2  1  0.79130542  0.36883143  0.92292893  1
+  Al  Al3  1  0.38790369  0.98625141  0.75251335  1
+  Al  Al4  1  0.19694743  0.38916638  0.39930701  1
+  Al  Al5  1  0.98341548  0.57037526  0.22835967  1
+  Ti  Ti6  1  0.64267045  0.79480207  0.36099401  1
+  Ti  Ti7  1  0.39095247  0.47831312  0.71399456  1
+  Ti  Ti8  1  0.57191300  0.14993040  0.17814344  1
+  V  V9  1  0.91424453  0.92734647  0.91687077  1
+  V  V10  1  0.00330513  0.58884329  0.65951985  1
+  V  V11  1  0.30372488  0.36868224  0.16389491  1
+  V  V12  1  0.74678797  0.88286978  0.64242983  1
+  V  V13  1  0.74427330  0.33223873  0.44697586  1
+  V  V14  1  0.96711779  0.00521919  0.18912590  1
+  O  O15  1  0.30505490  0.63639927  0.35173741  1
+  O  O16  1  0.66855562  0.02160127  0.49175468  1
+  O  O17  1  0.81127590  0.65992880  0.51225406  1
+  O  O18  1  0.65207434  0.42105496  0.12982787  1
+  O  O19  1  0.11468547  0.52956861  0.09372491  1
+  O  O20  1  0.94386536  0.80262303  0.30520555  1
+  O  O21  1  0.73768115  0.05319906  0.04232297  1
+  O  O22  1  0.22743329  0.03173128  0.07383855  1
+  O  O23  1  0.07455304  0.88014275  0.77364147  1
+  O  O24  1  0.58030552  0.89798999  0.21779868  1
+  O  O25  1  0.63932747  0.63221341  0.86821175  1
+  O  O26  1  0.70639360  0.03834548  0.80894274  1
+  O  O27  1  0.36639416  0.75231361  0.64125305  1
+  O  O28  1  0.36955053  0.22881840  0.32378778  1
+  O  O29  1  0.90107864  0.30979270  0.29790995  1
+  O  O30  1  0.43229812  0.22764978  0.70998275  1
+  O  O31  1  0.15112419  0.34157109  0.54100728  1
+  O  O32  1  0.14145245  0.48164648  0.79934049  1
+",-3.0524988
+11,"# generated using pymatgen
+data_LaTiAlV2O6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.28116894
+_cell_length_b   6.67462397
+_cell_length_c   12.54216576
+_cell_angle_alpha   96.20111847
+_cell_angle_beta   92.45692444
+_cell_angle_gamma   90.23608398
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LaTiAlV2O6
+_chemical_formula_sum   'La3 Ti3 Al3 V6 O18'
+_cell_volume   439.10111841
+_cell_formula_units_Z   3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.84362888  0.68201447  0.36795533  1
+  La  La1  1  0.64638871  0.79479098  0.92056888  1
+  La  La2  1  0.61870265  0.27223688  0.82858402  1
+  Al  Al3  1  0.18668662  0.07082102  0.00212848  1
+  Al  Al4  1  0.82374245  0.18022893  0.34065464  1
+  Al  Al5  1  0.32349566  0.44169152  0.49727371  1
+  Ti  Ti6  1  0.69094408  0.74290472  0.62185973  1
+  Ti  Ti7  1  0.14242990  0.52277571  0.72621566  1
+  Ti  Ti8  1  0.18260320  0.55497658  0.01379219  1
+  V  V9  1  0.81675732  0.20903622  0.58422107  1
+  V  V10  1  0.72638023  0.32424358  0.09704179  1
+  V  V11  1  0.29816446  0.38024789  0.23649071  1
+  V  V12  1  0.15503626  0.98532385  0.72293597  1
+  V  V13  1  0.30072704  0.93439966  0.22370191  1
+  V  V14  1  0.32932809  0.98216850  0.49568748  1
+  O  O15  1  0.49858075  0.69149452  0.48042455  1
+  O  O16  1  0.68273717  0.37125501  0.25627634  1
+  O  O17  1  0.51401943  0.00004411  0.65820926  1
+  O  O18  1  0.99448347  0.25960129  0.73670095  1
+  O  O19  1  0.11462403  0.38790962  0.37024114  1
+  O  O20  1  0.00564564  0.49291113  0.56851435  1
+  O  O21  1  0.96646649  0.91698486  0.56834877  1
+  O  O22  1  0.90503019  0.73746955  0.75668699  1
+  O  O23  1  0.65118843  0.95632839  0.27698773  1
+  O  O24  1  0.32574570  0.02525625  0.87497413  1
+  O  O25  1  0.32826895  0.31899795  0.06904688  1
+  O  O26  1  0.10264058  0.98020130  0.35300314  1
+  O  O27  1  0.46715611  0.50140446  0.65596390  1
+  O  O28  1  0.26879925  0.82586879  0.05988350  1
+  O  O29  1  0.84313744  0.09573256  0.99254167  1
+  O  O30  1  0.31444997  0.53681809  0.87300277  1
+  O  O31  1  0.57943767  0.23466673  0.46070272  1
+  O  O32  1  0.84355444  0.51435852  0.99336392  1
+",-3.012239
+12,"# generated using pymatgen
+data_LaTiAlV2O6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.33048296
+_cell_length_b   9.24661732
+_cell_length_c   9.24169540
+_cell_angle_alpha   118.67757416
+_cell_angle_beta   90.64938354
+_cell_angle_gamma   90.49394226
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LaTiAlV2O6
+_chemical_formula_sum   'La3 Ti3 Al3 V6 O18'
+_cell_volume   399.56037136
+_cell_formula_units_Z   3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.68050569  0.12445601  0.44979626  1
+  La  La1  1  0.68138111  0.42614505  0.86844707  1
+  La  La2  1  0.64947557  0.01986006  0.86708760  1
+  Al  Al3  1  0.15875204  0.21922094  0.90098530  1
+  Al  Al4  1  0.69207144  0.72369266  0.38827053  1
+  Al  Al5  1  0.18239553  0.06524499  0.55720222  1
+  Ti  Ti6  1  0.65050817  0.60248029  0.62210488  1
+  Ti  Ti7  1  0.14975567  0.08531301  0.16231760  1
+  Ti  Ti8  1  0.13837060  0.76847762  0.87232375  1
+  V  V9  1  0.15747473  0.74905592  0.52837920  1
+  V  V10  1  0.14196557  0.42262563  0.51557899  1
+  V  V11  1  0.14582340  0.46409839  0.18452376  1
+  V  V12  1  0.67266655  0.82472944  0.10160480  1
+  V  V13  1  0.66556329  0.34547666  0.23862255  1
+  V  V14  1  0.14080535  0.76316375  0.22220378  1
+  O  O15  1  0.32397816  0.24268888  0.12056717  1
+  O  O16  1  0.30440477  0.64935261  0.69482315  1
+  O  O17  1  0.79780912  0.70745760  0.86632597  1
+  O  O18  1  0.28863269  0.85697329  0.08362926  1
+  O  O19  1  0.21891434  0.17043331  0.41274676  1
+  O  O20  1  0.11599009  0.99482656  0.90596396  1
+  O  O21  1  0.76228303  0.40524223  0.58959126  1
+  O  O22  1  0.76241839  0.78691465  0.61405319  1
+  O  O23  1  0.77396625  0.64522827  0.16985582  1
+  O  O24  1  0.95077032  0.89742053  0.42652997  1
+  O  O25  1  0.42192298  0.87173849  0.42082337  1
+  O  O26  1  0.94008011  0.17343083  0.71870148  1
+  O  O27  1  0.45998234  0.55218524  0.38753444  1
+  O  O28  1  0.79438174  0.07376396  0.17243609  1
+  O  O29  1  0.41269368  0.16634446  0.72455609  1
+  O  O30  1  0.85213804  0.29503161  0.03180405  1
+  O  O31  1  0.95528054  0.52264458  0.38251945  1
+  O  O32  1  0.26215437  0.44830790  0.97822309  1
+",-3.0536823
+13,"# generated using pymatgen
+data_LaTiAlV2O6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.88839626
+_cell_length_b   10.00508022
+_cell_length_c   10.62319565
+_cell_angle_alpha   101.44292450
+_cell_angle_beta   100.38719940
+_cell_angle_gamma   90.06516266
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LaTiAlV2O6
+_chemical_formula_sum   'La3 Ti3 Al3 V6 O18'
+_cell_volume   398.13651415
+_cell_formula_units_Z   3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.34122121  0.80618685  0.37090290  1
+  La  La1  1  0.62196761  0.22158095  0.93459582  1
+  La  La2  1  0.41909999  0.43381509  0.52782446  1
+  Al  Al3  1  0.96783549  0.70226032  0.62037349  1
+  Al  Al4  1  0.83957827  0.14338641  0.36795580  1
+  Al  Al5  1  0.27727768  0.30385226  0.24179943  1
+  Ti  Ti6  1  0.56254059  0.83798242  0.81955886  1
+  Ti  Ti7  1  0.70280021  0.79036677  0.09656543  1
+  Ti  Ti8  1  0.20662521  0.00549257  0.10692748  1
+  V  V9  1  0.43572605  0.11241852  0.57391244  1
+  V  V10  1  0.20094445  0.53415596  0.09472626  1
+  V  V11  1  0.79856628  0.51393783  0.28428143  1
+  V  V12  1  0.99109036  0.98583108  0.67928356  1
+  V  V13  1  0.01426379  0.32130545  0.71740884  1
+  V  V14  1  0.07925877  0.59214842  0.85250050  1
+  O  O15  1  0.33218089  0.15595983  0.35101768  1
+  O  O16  1  0.70614839  0.41552910  0.10654568  1
+  O  O17  1  0.51313663  0.29911807  0.71313810  1
+  O  O18  1  0.05538526  0.80859315  0.79577756  1
+  O  O19  1  0.31053248  0.51333773  0.30695036  1
+  O  O20  1  0.52569520  0.01163275  0.73843479  1
+  O  O21  1  0.19722903  0.18431585  0.08384225  1
+  O  O22  1  0.83316922  0.33330098  0.34877330  1
+  O  O23  1  0.77481848  0.69206685  0.23410781  1
+  O  O24  1  0.98140007  0.50907522  0.65063435  1
+  O  O25  1  0.92277217  0.14446127  0.54200226  1
+  O  O26  1  0.77594769  0.96856856  0.25243151  1
+  O  O27  1  0.47389951  0.69734442  0.63159114  1
+  O  O28  1  0.65045840  0.95331860  0.00039034  1
+  O  O29  1  0.61342263  0.67525935  0.91923213  1
+  O  O30  1  0.10774006  0.39830530  0.90793848  1
+  O  O31  1  0.91006815  0.83709151  0.51691598  1
+  O  O32  1  0.20963621  0.81056225  0.11259040  1
+",-2.991529
+14,"# generated using pymatgen
+data_LaTiAlV2O6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.78662109
+_cell_length_b   6.45557880
+_cell_length_c   11.21938038
+_cell_angle_alpha   98.24302673
+_cell_angle_beta   99.90022278
+_cell_angle_gamma   94.75822449
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LaTiAlV2O6
+_chemical_formula_sum   'La3 Ti3 Al3 V6 O18'
+_cell_volume   406.10822399
+_cell_formula_units_Z   3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.06683299  0.14674789  0.03078679  1
+  La  La1  1  0.51136333  0.76136577  0.93063790  1
+  La  La2  1  0.02103930  0.27654299  0.58949727  1
+  Al  Al3  1  0.90778667  0.87238812  0.74919969  1
+  Al  Al4  1  0.62228131  0.03206444  0.21953200  1
+  Al  Al5  1  0.55881667  0.37664020  0.06337106  1
+  Ti  Ti6  1  0.11537919  0.98359215  0.29667729  1
+  Ti  Ti7  1  0.02104711  0.49520868  0.86163867  1
+  Ti  Ti8  1  0.93352228  0.42893597  0.34127235  1
+  V  V9  1  0.53433383  0.55028933  0.63236380  1
+  V  V10  1  0.04796460  0.66856378  0.11370774  1
+  V  V11  1  0.31072271  0.85160220  0.54804653  1
+  V  V12  1  0.78559101  0.81678122  0.44447958  1
+  V  V13  1  0.55839753  0.19561788  0.80392736  1
+  V  V14  1  0.43403774  0.38085106  0.36636358  1
+  O  O15  1  0.92728192  0.18397526  0.81150365  1
+  O  O16  1  0.01148633  0.92368472  0.61199170  1
+  O  O17  1  0.35065103  0.44572952  0.76707602  1
+  O  O18  1  0.78275841  0.49232078  0.98646432  1
+  O  O19  1  0.06651101  0.80757976  0.90332615  1
+  O  O20  1  0.49581212  0.11727332  0.97331578  1
+  O  O21  1  0.32862413  0.08676729  0.44337687  1
+  O  O22  1  0.86151946  0.56263107  0.72048271  1
+  O  O23  1  0.12847976  0.28531757  0.24508691  1
+  O  O24  1  0.00113175  0.70095348  0.30473816  1
+  O  O25  1  0.62837541  0.32496965  0.21627876  1
+  O  O26  1  0.27245861  0.49714112  0.01524972  1
+  O  O27  1  0.82766289  0.91426271  0.13000564  1
+  O  O28  1  0.84485775  0.10072733  0.37154654  1
+  O  O29  1  0.56914377  0.87252975  0.71811479  1
+  O  O30  1  0.23870714  0.52083510  0.49664658  1
+  O  O31  1  0.31848210  0.91095567  0.17730917  1
+  O  O32  1  0.73780310  0.50161940  0.47137892  1
+",-3.0526006

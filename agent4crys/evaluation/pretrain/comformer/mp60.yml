@@ -1,0 +1,44 @@
+train:
+  random_seed: 0
+  patience: 30
+  accumulation_steps: 1
+
+wandb:
+  online: true
+  exp_name: prop-eval
+  project: matagent
+
+outputs:
+  dir: .
+
+model:
+  type: comformer
+
+optim:
+  optimizer:
+    type: adamW
+    lr: 0.01
+    betas: [0.9, 0.999]
+    eps: 1e-08
+    weight_decay: 0.0001
+  lr_scheduler:
+    type: exponential
+    # step_size: 10
+    gamma: 0.95
+  epochs: 3000
+  # epochs: 3
+  cost_func: mse
+
+data:
+  root_path: ../../../../data/mp_60
+  data_path: .
+  target: formation_energy_per_atom
+  atom_features: "cgcnn"
+  neighbor_strategy: "k-nearest"
+  cutoff: 4.0
+  max_neighbors: 25
+  use_canonize: true
+  use_lattice: true
+  batch_size: 32
+  num_workers: 6
+  pin_memory: true

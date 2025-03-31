@@ -1,0 +1,2 @@
+agent4crys/component/knowledge_base/database/comp_vec_onehot.csv filter=lfs diff=lfs merge=lfs -text
+agent4crys/component/contriever/pretrain/best_model.pth filter=lfs diff=lfs merge=lfs -text

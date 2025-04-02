@@ -49,6 +49,14 @@ To impose additional constraints, use the `--additional_prompt` parameter.
 $ matagent-inference --use_planning --data_path "./data/mp_20/train.csv" --n_init 1 --n_iterations 16 --target_value -3.8 --additional_prompt "ADDITIONAL PROMPT"
 ```
 ## Citation
+```
+@article{takahara2025accelerated,
+  title={Accelerated Inorganic Materials Design with Generative AI Agents}, 
+  author={Izumi Takahara and Teruyasu Mizoguchi and Bang Liu},
+  journal={arXiv preprint arXiv:2504.00741},
+  year={2025},
+}
+```
 
 ## References
 This project was primarily built upon [CDVAE](https://github.com/txie-93/cdvae), [DiffCSP](https://github.com/jiaor17/DiffCSP), [ComFormer](https://github.com/divelab/AIRS/tree/main/OpenMat/ComFormer), and MatExpert[MatExpert](https://github.com/BangLab-UdeM-Mila/MatExpert).

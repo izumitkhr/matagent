@@ -1,5 +1,5 @@
 # MatAgent
-A generative framework for exploring inorganic crystalline materials with desired properties.
+A generative framework for interpretable and targeted inorganic materials design using diffusion-based generation, property prediction, and LLM-driven reasoning.
 
 ## Requirements
 - Python 3.12

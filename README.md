@@ -53,21 +53,21 @@ Additional configurable parameters are available in agent4crys/scripts/inference
 ### Generate with additional constraints
 To impose additional constraints, use the `--additional_prompt` parameter.
 ```
-$ matagent-inference --use_planning --data_path "./data/mp_20/train.csv" --n_init 1 --n_iterations 16 --target_value -3.8 --additional_prompt "ADDITIONAL PROMPT"
+matagent-inference --use_planning --data_path "./data/mp_20/train.csv" --n_init 1 --n_iterations 16 --target_value -3.8 --additional_prompt "ADDITIONAL PROMPT"
 ```
 
 ### Initialize with Retriever
 #### Checkpoint download instructions
 - To initialize using the Retriever method, first download the model checkpoint from Hugging Face. Use the following command to download the checkpoint:
     ```
-    $ wget https://huggingface.co/izumitkh/matagent-retriever/resolve/main/best_model.pth
+    wget https://huggingface.co/izumitkh/matagent-retriever/resolve/main/best_model.pth
     ```
 - Move `best_model.pth` to the `agent4crys/component/contriever/pretrain` directory.
 
 #### Generate with Retriever initialization 
 After placing the checkpoint in the correct location, you can execute generation by setting the `--initial_guess` parameter to "retriever".
 ```
-$ matagent-inference --use_planning --initial_guess "retriever" --data_path "./data/mp_20/train.csv" --n_init 1 --n_iterations 16 --target_value -3.8
+matagent-inference --use_planning --initial_guess "retriever" --data_path "./data/mp_20/train.csv" --n_init 1 --n_iterations 16 --target_value -3.8
 ```
 
 ## Citation

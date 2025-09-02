@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agent4crys"
+dependencies = [
+  "torch==2.5.1",
+  "torch_geometric",
+  "torch_scatter",
+  "torch_sparse",
+  "transformers==4.46.1",
+  "sentencepiece==0.2.0",
+  "easydict==1.13",
+  "wandb==0.19.8",
+  "pymatgen==2025.3.10",
+  "e3nn==0.5.6",
+  "jarvis-tools==2024.10.30",
+  "pydantic-settings==2.8.1",
+  "openai==1.69.0",
+  "pandarallel==1.6.5",
+  "smact==3.0.2",
+  "CBFV==1.1.0",
+  "p-tqdm==1.4.2",
+  "faiss-cpu==1.10.0",
+]
+
+dynamic = ["version"]
+
+[tool.setuptools.dynamic]
+version = {attr = "agent4crys.__version__"}
+
+[project.scripts]
+matagent-inference = "agent4crys.scripts.inference:main"
+
+[tool.setuptools.packages.find]
+where = ["agent4crys"]

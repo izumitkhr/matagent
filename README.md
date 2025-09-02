@@ -1,40 +1,43 @@
 # MatAgent
 A generative framework for interpretable and targeted inorganic materials design using diffusion-based generation, property prediction, and LLM-driven reasoning.
 
-## Requirements
-- Python 3.12
-
 ## Installation
+### Prepare environment
+```
+pip install uv
+uv venv .venv --python 3.12 
+source .venv/bin/activate
+```
 ### Install PyTorch
 First, install PyTorch. For example, with CUDA 12.4, you can install PyTorch as follows:
 ```
-$ pip install torch==2.5.1 --index-url https://download.pytorch.org/whl/cu124
+uv pip install torch==2.5.1 --index-url https://download.pytorch.org/whl/cu124
 ```
 
 ### Install PyG
 Install PyTorch Geometric and its dependencies:
 ```
-$ pip install torch_geometric
-$ pip install torch_scatter torch_sparse -f https://data.pyg.org/whl/torch-2.5.0+cu124.html
+uv pip install torch_geometric
+uv pip install torch_scatter torch_sparse -f https://data.pyg.org/whl/torch-2.5.0+cu124.html
 ```
 
 ### Intall other dependencies
 Install all other required packages with:
 ```
-$ pip install -e .
+uv pip install -e .
 ```
 
 ## Setup OpenAI API Key
 Set your OpenAI API Key as an environment variable:
 ```
-$ export OPENAI_API_KEY="YOUR_API_KEY"
+export OPENAI_API_KEY="YOUR_API_KEY"
 ```
 
 ## Running the code
 ### Running the inference script
 After installation, run the inference script:
 ```
-$ matagent-inference --use_planning --data_path "./data/mp_20/train.csv" --n_init 1 --n_iterations 16 --target_value -3.8
+matagent-inference --use_planning --data_path "./data/mp_20/train.csv" --n_init 1 --n_iterations 16 --target_value -3.8
 ```
 Here, the command parameters control the execution as follows:
 - `--use_planning`: Use tool-assisted Planning and Proposition
@@ -42,6 +45,8 @@ Here, the command parameters control the execution as follows:
 - `--n_init`: Number of independent initializations to perform
 - `--n_iterations`: Number of iterations for each independent run
 - `--target_value`: Target formation energy (in eV/atom)
+
+
 Additional configurable parameters are available in agent4crys/scripts/inference.py.
 ### Generate with additional constraints
 To impose additional constraints, use the `--additional_prompt` parameter.

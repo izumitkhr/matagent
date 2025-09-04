@@ -42,8 +42,12 @@ def parse_args():
             "o1",
             "o3-mini",
             "gpt-4o",
-            # "gpt-3.5-turbo",
-            # "claude-3-5",
+            "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+            "meta-llama/Llama-3.1-8B-Instruct",
+            "Qwen/Qwen3-30B-A3B-Thinking-2507",
+            "Qwen/Qwen3-30B-A3B-Instruct-2507",
+            "openai/gpt-oss-20b",
+            "deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
         ],
         default="gpt-4o",
         help="LLM to use",
@@ -167,7 +171,7 @@ def main():
     # set up llm model
     print("Loading LLM models ...")
     proposer = load_proposer(
-        args=args, target_prompt=prompt, knowledge_base=knowledge_base
+        args=args, target_prompt=prompt, knowledge_base=knowledge_base, device=device
     )
     # set initial guess
     if args.initial_guess == "retriever":

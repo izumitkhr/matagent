@@ -1,8 +1,6 @@
 from .gpt import OAProposer
 from .planner import Planner
 
-# from .claude import ClaudeProposer
-
 
 def load_proposer(args, target_prompt, knowledge_base):
     llm_model = args.llm_model
@@ -54,17 +52,5 @@ def load_proposer(args, target_prompt, knowledge_base):
             return Planner(proposer)
         else:
             return proposer
-    # elif llm_model == "claude-3-5":
-    #     model_id = "claude-3-5-sonnet-20241022"
-    #     proposer = ClaudeProposer(
-    #         target_val=args.target_value,
-    #         target_prompt=target_prompt,
-    #         knowledge_base=knowledge_base,
-    #         claude_model=model_id,
-    #     )
-    #     if args.use_planning:
-    #         return Planner(proposer)
-    #     else:
-    #         return proposer
     else:
         raise ValueError(f"Model {llm_model} not supported")

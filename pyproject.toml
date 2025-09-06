@@ -34,4 +34,4 @@ version = {attr = "agent4crys.__version__"}
 matagent-inference = "agent4crys.scripts.inference:main"
 
 [tool.setuptools.packages.find]
-where = ["agent4crys"]
+where = ["."]

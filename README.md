@@ -16,6 +16,11 @@ First, install PyTorch. For example, with CUDA 12.4, you can install PyTorch as 
 uv pip install torch==2.5.1 --index-url https://download.pytorch.org/whl/cu124
 ```
 
+### Install Transformers
+```
+uv pip install transformers==4.56.0
+```
+
 ### Install PyG
 Install PyTorch Geometric and its dependencies:
 ```

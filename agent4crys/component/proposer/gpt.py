@@ -27,11 +27,3 @@ class OAProposer(Proposer):
             model=self.gpt_model, messages=messages
         )
         return response.choices[0].message.content
-
-    def propose(self, prompt):
-        system_prompt = self.system_prompt
-
-        response = self.generate(system_prompt, prompt)
-        response = remove_subscripts(response)
-
-        return self.extract_outputs(response)

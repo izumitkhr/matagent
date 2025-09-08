@@ -1,0 +1,51 @@
+import sys
+
+import torch
+from transformers import AutoTokenizer, AutoModelForCausalLM
+
+from .proposer import Proposer
+
+
+def retrieve_model(model_id):
+    if "Llama" in model_id or "gpt-oss" in model_id or "Qwen" in model_id:
+        model = AutoModelForCausalLM.from_pretrained(
+            model_id,
+            dtype=torch.bfloat16,
+            device_map="auto",
+        )
+    else:
+        raise NotImplementedError(f"Model {model_id} not supported")
+    return model
+
+
+def retrieve_tokenizer(model_id):
+    tokenizer = AutoTokenizer.from_pretrained(model_id)
+    return tokenizer
+
+
+class TFProposer(Proposer):
+    def __init__(
+        self, target_val, target_prompt, knowledge_base, model_id, device="cuda"
+    ):
+        super().__init__(target_val, target_prompt, knowledge_base=knowledge_base)
+        self.tokenizer = retrieve_tokenizer(model_id)
+        self.model = retrieve_model(model_id).to(device)
+
+    def generate(self, system_prompt, prompt):
+        messages = [
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": prompt},
+        ]
+        inputs = self.tokenizer.apply_chat_template(
+            messages,
+            add_generation_prompt=True,
+            return_tensors="pt",
+            return_dict=True,
+        ).to(self.model.device)
+        outputs = self.model.generate(
+            **inputs,
+            max_new_tokens=2048,
+            pad_token_id=self.tokenizer.eos_token_id,
+        )
+        outputs = self.tokenizer.decode(outputs[0][inputs["input_ids"].shape[-1] :])
+        return outputs

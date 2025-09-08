@@ -5,11 +5,11 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "agent4crys"
 dependencies = [
-  "torch==2.5.1",
+  "torch",
+  "transformers==4.56.0",
   "torch_geometric",
   "torch_scatter",
   "torch_sparse",
-  "transformers==4.46.1",
   "sentencepiece==0.2.0",
   "easydict==1.13",
   "wandb==0.19.8",
@@ -23,6 +23,8 @@ dependencies = [
   "CBFV==1.1.0",
   "p-tqdm==1.4.2",
   "faiss-cpu==1.10.0",
+  "accelerate==1.10.1",
+  "bitsandbytes==0.47.0",
 ]
 
 dynamic = ["version"]

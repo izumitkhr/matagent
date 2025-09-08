@@ -19,6 +19,14 @@ class Proposer:
         self.general_system_prompt = GENERAL_SYSTEM_PROMPT
         self.kb_table, self.kb_reason = knowledge_base
 
+    def propose(self, prompt):
+        system_prompt = self.system_prompt
+
+        response = self.generate(system_prompt, prompt)
+        response = remove_subscripts(response)
+
+        return self.extract_outputs(response)
+
     def propose_one(
         self, memory, prev_guess, feedback, file=None, additional_prompt=""
     ):

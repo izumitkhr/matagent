@@ -1,10 +1,9 @@
 from .gpt import OAProposer
+from .tf import TFProposer
 from .planner import Planner
 
-# from .claude import ClaudeProposer
 
-
-def load_proposer(args, target_prompt, knowledge_base):
+def load_proposer(args, target_prompt, knowledge_base, device="cuda"):
     llm_model = args.llm_model
     if llm_model == "gpt-4o":
         model_id = "gpt-4o-2024-08-06"
@@ -54,17 +53,24 @@ def load_proposer(args, target_prompt, knowledge_base):
             return Planner(proposer)
         else:
             return proposer
-    # elif llm_model == "claude-3-5":
-    #     model_id = "claude-3-5-sonnet-20241022"
-    #     proposer = ClaudeProposer(
-    #         target_val=args.target_value,
-    #         target_prompt=target_prompt,
-    #         knowledge_base=knowledge_base,
-    #         claude_model=model_id,
-    #     )
-    #     if args.use_planning:
-    #         return Planner(proposer)
-    #     else:
-    #         return proposer
+    elif llm_model in [
+        "meta-llama/Llama-3.1-8B-Instruct",
+        "deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
+        "Qwen/Qwen3-30B-A3B-Thinking-2507",
+        "Qwen/Qwen3-30B-A3B-Instruct-2507",
+        "openai/gpt-oss-20b",
+    ]:
+        model_id = llm_model
+        proposer = TFProposer(
+            target_val=args.target_value,
+            target_prompt=target_prompt,
+            knowledge_base=knowledge_base,
+            model_id=model_id,
+            device=device,
+        )
+        if args.use_planning:
+            return Planner(proposer)
+        else:
+            return proposer
     else:
         raise ValueError(f"Model {llm_model} not supported")

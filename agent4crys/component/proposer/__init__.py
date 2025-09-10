@@ -54,11 +54,11 @@ def load_proposer(args, target_prompt, knowledge_base, max_new_tokens_for_tf_pro
         else:
             return proposer
     elif llm_model in [
+        "meta-llama/Llama-3.1-70B-Instruct",
         "meta-llama/Llama-3.1-8B-Instruct",
-        "deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
         "Qwen/Qwen3-30B-A3B-Thinking-2507",
         "Qwen/Qwen3-30B-A3B-Instruct-2507",
-        "openai/gpt-oss-20b",
+        "deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
     ]:
         model_id = llm_model
         proposer = TFProposer(
@@ -66,7 +66,6 @@ def load_proposer(args, target_prompt, knowledge_base, max_new_tokens_for_tf_pro
             target_prompt=target_prompt,
             knowledge_base=knowledge_base,
             model_id=model_id,
-            device=device,
             max_new_tokens=max_new_tokens_for_tf_proposer,
         )
         if args.use_planning:

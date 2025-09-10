@@ -3,7 +3,7 @@ from .tf import TFProposer
 from .planner import Planner
 
 
-def load_proposer(args, target_prompt, knowledge_base, device="cuda"):
+def load_proposer(args, target_prompt, knowledge_base, max_new_tokens_for_tf_proposer=2048, device="cuda"):
     llm_model = args.llm_model
     if llm_model == "gpt-4o":
         model_id = "gpt-4o-2024-08-06"
@@ -67,6 +67,7 @@ def load_proposer(args, target_prompt, knowledge_base, device="cuda"):
             knowledge_base=knowledge_base,
             model_id=model_id,
             device=device,
+            max_new_tokens=max_new_tokens_for_tf_proposer,
         )
         if args.use_planning:
             return Planner(proposer)

@@ -144,6 +144,12 @@ def parse_args():
         default=0,
     )
 
+    parser.add_argument(
+        "--max_new_tokens_for_tf_proposer",
+        type=int,
+        default=2048,
+    )
+
     parser.add_argument("--no_cuda", action="store_true", default=False)
     return parser.parse_args()
 
@@ -171,7 +177,7 @@ def main():
     # set up llm model
     print("Loading LLM models ...")
     proposer = load_proposer(
-        args=args, target_prompt=prompt, knowledge_base=knowledge_base, device=device
+        args=args, target_prompt=prompt, knowledge_base=knowledge_base, device=device, max_new_tokens_for_tf_proposer=args.max_new_tokens_for_tf_proposer
     )
     # set initial guess
     if args.initial_guess == "retriever":

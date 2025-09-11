@@ -2,6 +2,7 @@ import sys
 
 import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM
+from transformers import LlamaTokenizer, MistralForCausalLM
 
 from .proposer import Proposer
 
@@ -13,13 +14,23 @@ def retrieve_model(model_id):
             dtype=torch.bfloat16,
             device_map="auto",
         )
+    elif "Mistral" in model_id:
+        model = MistralForCausalLM.from_pretrained(
+            model_id,
+            torch_dtype=torch.bfloat16,
+            device_map="auto",
+        )
     else:
         raise NotImplementedError(f"Model {model_id} not supported")
     return model
 
 
 def retrieve_tokenizer(model_id):
-    tokenizer = AutoTokenizer.from_pretrained(model_id)
+    if "Llama" in model_id or "gpt-oss" in model_id or "Qwen" in model_id or "Mixtral" in model_id:
+        tokenizer = AutoTokenizer.from_pretrained(model_id)
+    elif "Mistral" in model_id:
+        tokenizer = LlamaTokenizer.from_pretrained(model_id)
+        tokenizer.pad_token = tokenizer.eos_token
     return tokenizer
 
 

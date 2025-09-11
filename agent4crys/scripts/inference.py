@@ -47,6 +47,7 @@ def parse_args():
             "Qwen/Qwen3-30B-A3B-Thinking-2507",
             "Qwen/Qwen3-30B-A3B-Instruct-2507",
             "deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
+            "mistralai/Mistral-Small-Instruct-2409",
         ],
         default="gpt-4o",
         help="LLM to use",

@@ -23,9 +23,16 @@ def parse_args():
     parser.add_argument(
         "--initial_guess",
         type=str,
-        choices=["random", "llm", "retriever"],
+        choices=["random", "llm", "retriever", "from_file"],
         default="random",
         help="Initial guess for the optimization",
+    )
+
+    parser.add_argument(
+        "--initial_guess_file",
+        type=str,
+        default="initial_guesses.txt",
+        help="File containing initial guesses (used if initial_guess is 'from_file')",
     )
 
     parser.add_argument(
@@ -180,7 +187,7 @@ def main():
         args=args, target_prompt=prompt, knowledge_base=knowledge_base, device=device, max_new_tokens_for_tf_proposer=args.max_new_tokens_for_tf_proposer
     )
     # set initial guess
-    if args.initial_guess == "retriever":
+    if args.initial_guess in ["retriever", "from_file"]:
         initial_guesses = get_initial_guess(
             args,
             proposer,
@@ -198,7 +205,7 @@ def main():
         with open(f"response_log_{i:02d}.txt", "w") as file:
             iter = 0
             # get initial guess
-            if args.initial_guess == "retriever":
+            if args.initial_guess == "retriever" or args.initial_guess == "from_file":
                 next_guess = initial_guesses[i]
             else:
                 next_guess = get_initial_guess(args, proposer, prompt, device=device)

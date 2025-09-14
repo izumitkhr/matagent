@@ -25,15 +25,34 @@ def get_initial_guess(args, proposer, prompt, additional_prompt="", device="cuda
     elif args.initial_guess == "retriever":
         out_dict = get_init_from_retriever(args, device)
         return out_dict
+    elif args.initial_guess == "from_file":
+        out_dict = get_init_from_file(args)
+        return out_dict
     else:
         raise ValueError(f"Unknown initial guess: {args.initial_guess}")
 
+
+def get_init_from_file(args):
+    path = Path(args.initial_guess_file)
+    if not path.exists():
+        raise FileNotFoundError(f"Initial guess file not found: {args.initial_guess_file}")
+    with open(path, 'r') as f:
+        lines = f.readlines()
+    if len(lines) == 0:
+        raise ValueError("Initial guess file is empty.")
+    elif len(lines) != args.n_init:
+        raise ValueError(f"Number of initial guesses in file ({len(lines)}) does not match n_init ({args.n_init}).")
+    comps = [line.strip() for line in lines]
+    outputs = [
+        {"reflection": None, "reason": None, "composition": comp} for comp in comps
+    ]
+    return outputs
 
 def get_init_from_random(args):
     # generate initial composition from training data
     path = Path(args.data_path)
     df = pd.read_csv(path)
-    idx = random.randint(0, len(df))
+    idx = random.randint(0, len(df)-1)
     crystal = Structure.from_str(df.iloc[idx]["cif"], fmt="cif")
     comp = crystal.composition.reduced_formula
     out_dict = {"reflection": None, "reason": None, "composition": comp}

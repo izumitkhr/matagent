@@ -8,7 +8,7 @@ from .proposer import Proposer
 
 
 def retrieve_model(model_id):
-    if "Llama" in model_id or "gpt-oss" in model_id or "Qwen" in model_id:
+    if "Qwen" in model_id or "Llama" in model_id:
         model = AutoModelForCausalLM.from_pretrained(
             model_id,
             dtype=torch.bfloat16,
@@ -17,7 +17,7 @@ def retrieve_model(model_id):
     elif "Mistral" in model_id:
         model = MistralForCausalLM.from_pretrained(
             model_id,
-            torch_dtype=torch.bfloat16,
+            dtype=torch.bfloat16,
             device_map="auto",
         )
     else:
@@ -26,7 +26,7 @@ def retrieve_model(model_id):
 
 
 def retrieve_tokenizer(model_id):
-    if "Llama" in model_id or "gpt-oss" in model_id or "Qwen" in model_id or "Mixtral" in model_id:
+    if "Qwen" in model_id or "Llama" in model_id:
         tokenizer = AutoTokenizer.from_pretrained(model_id)
     elif "Mistral" in model_id:
         tokenizer = LlamaTokenizer.from_pretrained(model_id)
@@ -36,7 +36,12 @@ def retrieve_tokenizer(model_id):
 
 class TFProposer(Proposer):
     def __init__(
-        self, target_val, target_prompt, knowledge_base, model_id, max_new_tokens=2048,
+        self,
+        target_val,
+        target_prompt,
+        knowledge_base,
+        model_id,
+        max_new_tokens=2048,
     ):
         super().__init__(target_val, target_prompt, knowledge_base=knowledge_base)
         self.tokenizer = retrieve_tokenizer(model_id)

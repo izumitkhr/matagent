@@ -50,10 +50,7 @@ def parse_args():
             "o3-mini",
             "gpt-4o",
             "meta-llama/Llama-3.1-70B-Instruct",
-            "meta-llama/Llama-3.1-8B-Instruct",
-            "Qwen/Qwen3-30B-A3B-Thinking-2507",
             "Qwen/Qwen3-30B-A3B-Instruct-2507",
-            "deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
             "mistralai/Mistral-Small-Instruct-2409",
         ],
         default="gpt-4o",
@@ -164,7 +161,7 @@ def parse_args():
 def main():
     args = parse_args()
     args.cuda = not args.no_cuda and torch.cuda.is_available()
-    device = torch.device("cuda:0" if args.cuda else "cpu")
+    device = torch.device("cuda" if args.cuda else "cpu")
     print(f"Device: {device}")
     print(f"Planning: {args.use_planning}")
     if args.set_seed:
@@ -184,7 +181,10 @@ def main():
     # set up llm model
     print("Loading LLM models ...")
     proposer = load_proposer(
-        args=args, target_prompt=prompt, knowledge_base=knowledge_base, device=device, max_new_tokens_for_tf_proposer=args.max_new_tokens_for_tf_proposer
+        args=args,
+        target_prompt=prompt,
+        knowledge_base=knowledge_base,
+        max_new_tokens_for_tf_proposer=args.max_new_tokens_for_tf_proposer,
     )
     # set initial guess
     if args.initial_guess in ["retriever", "from_file"]:

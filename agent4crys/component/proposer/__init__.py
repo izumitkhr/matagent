@@ -3,7 +3,9 @@ from .tf import TFProposer
 from .planner import Planner
 
 
-def load_proposer(args, target_prompt, knowledge_base, max_new_tokens_for_tf_proposer=2048, device="cuda"):
+def load_proposer(
+    args, target_prompt, knowledge_base, max_new_tokens_for_tf_proposer=2048
+):
     llm_model = args.llm_model
     if llm_model == "gpt-4o":
         model_id = "gpt-4o-2024-08-06"
@@ -55,10 +57,7 @@ def load_proposer(args, target_prompt, knowledge_base, max_new_tokens_for_tf_pro
             return proposer
     elif llm_model in [
         "meta-llama/Llama-3.1-70B-Instruct",
-        "meta-llama/Llama-3.1-8B-Instruct",
-        "Qwen/Qwen3-30B-A3B-Thinking-2507",
         "Qwen/Qwen3-30B-A3B-Instruct-2507",
-        "deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
         "mistralai/Mistral-Small-Instruct-2409",
     ]:
         model_id = llm_model

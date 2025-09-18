@@ -54,7 +54,7 @@ class CSPLayer(nn.Module):
     ):
         hi, hj = node_features[edge_index[0]], node_features[edge_index[1]]
         if frac_diff is None:
-            xi, xj = frac_coords[edge_index[0]], edge_index[edge_index[1]]
+            xi, xj = frac_coords[edge_index[0]], frac_coords[edge_index[1]]
             frac_diff = (xj - xi) % 1.0
         # lattice feat
         if self.ip:

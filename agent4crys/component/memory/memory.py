@@ -31,6 +31,14 @@ class Memory:
         for key in plan.keys():
             self.memory_planning[key].append(plan[key])
 
+    def retrieve_plan(self):
+        plan_dict = {
+            "reflection": self.memory_planning["reflection"][-1],
+            "reason": self.memory_planning["reason"][-1],
+            "choice": self.memory_planning["choice"][-1],
+        }
+        return plan_dict
+
     def delete_plan(self):
         for key in self.memory_planning.keys():
             self.memory_planning[key].pop()

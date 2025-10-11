@@ -49,8 +49,11 @@ class Planner:
         file=None,
         additional_prompt="",
     ):
-        plan_dict = self.plan(memory=memory, chars=chars, file=file)
-        memory.store_plan(plan_dict)
+        if prev_valid:
+            plan_dict = self.plan(memory=memory, chars=chars, file=file)
+            memory.store_plan(plan_dict)
+        else:
+            plan_dict = memory.retrieve_plan()
 
         next_guess = self.execute(
             plan_dict=plan_dict,

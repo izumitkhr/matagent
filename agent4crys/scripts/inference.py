@@ -288,8 +288,8 @@ def main():
                 if prev_valid:
                     pass
                 else:
-                    if args.use_planning:
-                        memory.delete_plan()
+                    # if args.use_planning:
+                    #     memory.delete_plan()
                     file.write("# Feedback:\n")
                     file.write(f"{feedback}\n")
                     continue

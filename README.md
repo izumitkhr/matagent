@@ -4,6 +4,11 @@ A generative framework for interpretable and targeted inorganic materials design
 ![Figure 01](assets/figure_01.png)
 
 ## Installation
+### Clone repository
+```
+Git clone https://github.com/izumitkhr/matagent.git
+cd matagent
+```
 ### Prepare environment
 ```
 pip install uv

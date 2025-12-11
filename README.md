@@ -6,7 +6,7 @@ A generative framework for interpretable and targeted inorganic materials design
 ## Installation
 ### Clone repository
 ```
-Git clone https://github.com/izumitkhr/matagent.git
+git clone https://github.com/izumitkhr/matagent.git
 cd matagent
 ```
 ### Prepare environment
